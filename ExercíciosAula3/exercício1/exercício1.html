@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+</head>
+<body>
+    
+        <form method="get">
+            <fieldset>
+                <legend>Dados do paciente</legend>
+                    Nome do paciente: <input type="text" name="nome"><br>
+                    Registro hospitalar: <input type="text" name="registro"><br>
+                    Data de inclusão: <input type="date" name="inclusao"><br>
+                    Data de nascimento: <input type="date" name="datanasc"><br>
+                    E-mail: <input type="email" name="email"><br>
+                    Gênero:<br>
+                    <label for="g1">
+                    <input type="radio" name="genero" value="1" id="g1">Masculino <br>
+                    </label>
+                    <label for="g2">
+                    <input type="radio" name="genero" value="1" id="g2">Feminino <br>
+                </label>
+                <select name="raca">
+                <option value=""></option>
+                <option value="Branca">Branca</option>
+                <option value="Preta">Preta</option>
+                <option value="Amarela">Amarela</option>
+                <option value="Parda">Parda</option>
+                <option value="Indigena">Indigena</option>
+                <option value="Desconhecida">Desconhecida</option>
+                </select>
+                <br>
+                Como ficou sabendo do estudo: <br>
+                <input type="checkbox" name="estudo" value="convidado">Convidado
+                <br>
+                <input type="checkbox" name="estudo" value="internet">internet
+                <br>
+                <input type="checkbox" name="estudo" value="amigos">Amigos
+                <br>
+                <input type="checkbox" name="estudo" value="familiares">Familiares
+                <br>
+                <input type="checkbox" name="estudo" value="outros">Outros
+                <br>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+
+</body>
+</html>
